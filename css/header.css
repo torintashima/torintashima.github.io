@@ -2,11 +2,13 @@
 
 /* General style */
 header {
-    background-color: #d4d4d4;
+    background-color: #000000;
+    color: #ffffff;
     display: inline-grid;
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 3;
 }
 
 header h1 {
@@ -22,6 +24,19 @@ header nav {
 header nav p {
     display: inline-block;
     padding: 8px 20px;
+}
+
+header nav p a:link, header nav p a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav p a:hover {
+    color: #ffff66;
+}
+
+header nav p a:active {
+    color: #ff6666;
 }
 
 header h1, header nav p {

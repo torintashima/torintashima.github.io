@@ -1,4 +1,8 @@
 /* File for general style */
+html, body {
+    height: 100%;
+}
+
 body, h1, h2, h3, p {
     margin: 0;
 }

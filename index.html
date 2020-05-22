@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Torin Tashima</title>
         <!-- Link to Oswald and Raleway from Google Fonts -->
          <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap" rel="stylesheet">
@@ -8,8 +9,14 @@
         <link rel="stylesheet" href="css/style.css">
         <!-- Header style -->
         <link rel="stylesheet" href="css/header.css">
+        <!-- Splash style -->
+        <link rel="stylesheet" href="css/splash.css">
         <!-- Wrapper style -->
         <link rel="stylesheet" href="css/wrapper.css">
+        <!-- Footer style -->
+        <link rel="stylesheet" href="css/footer.css">
+        <!-- JavaScript file to generate random third useless occupation -->
+        <script src="js/random.js"></script>
     </head>
     <body>
         <!-- Start of header -->
@@ -23,21 +30,30 @@
             </nav>
         </header>
         <!-- End of header -->
+        <!-- Start of splash section -->
+        <!-- Refer to css/splash.css for splash style -->
+        <div id="splash">
+            <p>Web developer.</p>
+            <p>Web designer.</p>
+            <p id="third"></p>
+        </div>
+        <!-- End of splash section -->
         <!-- Start of wrapper section -->
         <!-- Refer to css/wrapper.css for wrapper style -->
         <div id="wrapper">
             <!-- Start of about section -->
-            <div id="about">
+            <div class="section" id="about">
                 <h2>About</h2>
-                <p>asdfawefaw</p>
+                <p>I have </p>
                 <p>asdafwea</p>
                 <p>afewafewafe</p>
                 <p>asdvawewavew</p>
                 <p>asfaewfwaewewa</p>
+                <a class="button" href="pdf/torin-tashima-resume.pdf" download>Download Resume (PDF)</a>
             </div>
             <!-- End of about section -->
             <!-- Start of projects section -->
-            <div id="projects">
+            <div class="section" id="projects">
                 <h2>Projects</h2>
                 <p>asdafsdaf</p>
                 <p>asdfaweafewaf</p>
@@ -45,7 +61,7 @@
             </div>
             <!-- End of projects section -->
             <!-- Start of contact section -->
-            <div id="contact">
+            <div class="section" id="contact">
                 <h2>Contact</h2>
                 <p>aewfawefawefa</p>
                 <p>aewffaewafew</p>
@@ -54,5 +70,10 @@
             <!-- End of contact section -->
         </div>
         <!-- End of wrapper section -->
+        <!-- Start of footer section -->
+        <footer>
+            <p>&copy; 2020 Torin Tashima</p>
+        </footer>
+        <!-- End of footer section -->
     </body>
 </html>
