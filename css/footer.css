@@ -11,8 +11,21 @@ footer {
     text-align: center;
 }
 
-footer nav p {
-    display: inline-block;
+footer nav a {
+    padding: 0 12px;
+}
+
+footer nav a:link, footer nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #ffff66;
+}
+
+footer nav a:active {
+    color: #ff6666;
 }
 
 /* Mobile responsive design */
