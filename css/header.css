@@ -1,0 +1,62 @@
+/* File for header style */
+
+/* General style */
+header {
+    background-color: #d4d4d4;
+    display: inline-grid;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 36px;
+    padding: 0 12px;
+}
+
+header nav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header nav p {
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+header h1, header nav p {
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Mobile responsive design */
+@media screen and (max-width: 600px) {
+    header h1 {
+        display: none;
+    }
+
+    header nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Desktop responsive design */
+@media screen and (min-width: 600px) {
+    header {
+        grid-template-columns: 43% 57%;
+    }
+
+    header h1 {
+        display: inline-block;
+    }
+
+    header nav {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    header nav p {
+        font-size: 20px;
+    }
+}

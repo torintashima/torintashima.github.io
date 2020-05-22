@@ -1,0 +1,12 @@
+/* File for general style */
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', 'Arial', sans-serif;
+}
