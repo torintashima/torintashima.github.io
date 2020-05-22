@@ -2,42 +2,56 @@
 
 /* General style */
 #wrapper {
-    display: none;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #wrapper h2 {
-    text-align: center;
     text-transform: uppercase;
+}
+
+#wrapper h2, #wrapper h3 {
+    text-align: center;
+}
+
+#wrapper p {
+    margin-top: 16px;
 }
 
 #wrapper .section {
     padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 #wrapper div:nth-child(odd) {
-    background-color: #b0a0ff;
+    background-color: #ffffff;
 }
 
 #wrapper div:nth-child(even) {
-    background-color: #6756a0;
+    background-color: #ffffff;
 }
 
 .button {
-    background-color: #55cc55;
+    background-color: #000000;
     border: 1px solid #000000;
+    display: block;
     font-family: 'Oswald', 'Arial Narrow', sans-serif;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: 4px 12px;
+    text-align: center;
+    width: 300px;
 }
 
 a.button:link, a.button:visited {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
+}
+
+#projects, #contact {
+    display: none;
 }
 
 /* Desktop responsive design */
@@ -48,6 +62,10 @@ a.button:link, a.button:visited {
 
     #wrapper h2 {
         font-size: 48px;
+    }
+
+    #wrapper h3 {
+        font-size: 28px;
     }
 
     #wrapper p {
