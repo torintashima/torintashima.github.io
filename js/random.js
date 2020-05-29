@@ -1,4 +1,6 @@
-window.onload = function() {
+window.addEventListener('load', generateTitle, false);
+
+function generateTitle() {
     var titles = [
         "Fingerstyle air guitarist.",
         "Sweater horn inventor.",

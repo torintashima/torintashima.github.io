@@ -20,10 +20,14 @@
         <link rel="stylesheet" href="css/splash.css">
         <!-- Wrapper style -->
         <link rel="stylesheet" href="css/wrapper.css">
+        <!-- Form style -->
+        <link rel="stylesheet" href="css/form.css">
         <!-- Footer style -->
         <link rel="stylesheet" href="css/footer.css">
         <!-- JavaScript file to generate random third useless occupation -->
         <script src="js/random.js"></script>
+        <!-- JavaScript file to validate contact form -->
+        <script src="js/validate.js"></script>
     </head>
     <body>
         <!-- Start of header -->
@@ -52,6 +56,7 @@
             <div class="section" id="about">
                 <hr>
                 <h2>About</h2>
+                <img id="myimg" src="img/profile-pic.jpg" alt="A portrait of Torin Tashima smiling.">
                 <p>Welcome! My name is Torin Tashima. I am a web development student at Clark College in Vancouver, Washington.</p>
                 <p>I have been interested in web development ever since I made my first HTML page back in eighth grade. From there, I've taken electives in high school related to programming and web development. It's been a nice journey so far and I am learning a lot.</p>
                 <p>My spare time involves composing music, playing the guitar, and drawing on my Wacom tablet.</p><br>
@@ -62,18 +67,83 @@
             <!-- End of about section -->
             <!-- Start of projects section -->
             <div class="section" id="projects">
+                <hr>
                 <h2>Projects</h2>
-                <p>asdafsdaf</p>
-                <p>asdfaweafewaf</p>
-                <p>asdfaewfae</p>
+                <div class="proj">
+                    <h3>Oregon Primate Rescue (OPR)</h3>
+                    <p>A project I did with Team Oreo for Web Design II class.
+                        <i class="fab fa-wordpress"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-php"></i>
+                    </p>
+                    <img src="img/opr-website.png" alt="Homepage of the Oregon Primate Rescue (OPR) website.">
+                    <a class="link"></a>
+                </div>
+                <div class="proj">
+                    <h3>Imgload</h3>
+                    <p>An image uploader developed for PHP class.
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-php"></i>
+                    </p>
+                    <img src="img/imgload-project.png" alt="Homepage of an image uploading application.">
+                    <a class="link"></a>
+                </div>
+                <div class="proj">
+                    <h3>Watson Image Generator</h3>
+                    <p>I was introduced to APIs with this JavaScript project.
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-php"></i>
+                    </p>
+                    <img src="img/javascript-project.png" alt="A bar graph titled In-Depth Results showing the data for Joy, Sadness, Anger, Fear, Analytical, Confident, and Tentative.">
+                    <a class="link"></a>
+                </div>
+                <div class="proj">
+                    <h3>Fursona Generator</h3>
+                    <p>A project I did to demonstrate PHP queries.
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-php"></i>
+                    </p>
+                    <img src="img/php127-project-dos.png" alt="A short bio for a fursona named Randy the fox.">
+                    <a class="link"></a>
+                </div>
+                <div class="proj">
+                    <h3>2018 Portal Calendar</h3>
+                    <p>My final project for Photoshop class.
+                        <i class="fab fa-adobe"></i>
+                    </p>
+                    <img src="img/portalesque-landscape-stranded-mini.jpg" alt="A man wearing a backpack stranded in the middle of nowhere near a portal showing a beach.">
+                    <a class="link"></a>
+                </div>
             </div>
             <!-- End of projects section -->
             <!-- Start of contact section -->
             <div class="section" id="contact">
+                <hr>
                 <h2>Contact</h2>
-                <p>aewfawefawefa</p>
-                <p>aewffaewafew</p>
-                <p>asdfaweafew</p>
+                <form method="post">
+                    <div class="field">
+                        <label for="name">Your Name * <span class="err" id="errname"></span></label><br>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="field">
+                        <label for="email">Your Email * <span class="err" id="erremail"></span></label><br>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="field">
+                        <label for="subject">Subject * <span class="err" id="errsubject"></span></label><br>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="field">
+                        <label for="msg">Message * <span class="err" id="errmsg"></span></label><br>
+                        <textarea id="msg" name="msg" rows="6"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
             <!-- End of contact section -->
         </div>

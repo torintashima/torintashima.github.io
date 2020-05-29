@@ -5,7 +5,6 @@ footer {
     background-color: #000000;
     color: #ffffff;
     display: grid;
-    font-size: 24px;
     grid-template-columns: 50% 50%;
     padding: 12px 0;
     text-align: center;
@@ -29,5 +28,15 @@ footer nav a:active {
 }
 
 /* Mobile responsive design */
+@media screen and (max-width: 600px) {
+    footer {
+        font-size: 16px;
+    }
+}
 
 /* Desktop responsive design */
+@media screen and (min-width: 600px) {
+    footer {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,101 @@
+/* File for form style */
+
+/* General style */
+form {
+    border: 3px solid #000000;
+    padding: 16px;
+}
+
+form div {
+    display: block;
+}
+
+form div label {
+    display: inline-block;
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    width: calc(100% - 4px);
+}
+
+form div input, form div textarea {
+    border: 3px solid #000000;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    margin-bottom: 8px;
+    padding: 4px;
+    width: calc(100% - 16px);
+}
+
+form div textarea {
+    resize: none;
+}
+
+form div input:hover, form div textarea:hover {
+    border-color: #ff6666;
+}
+
+form input[type=submit] {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    display: block;
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+form input[type=submit]:hover {
+    color: #ffff66;
+    cursor: pointer;
+}
+
+form input[type=submit]:active {
+    color: #ff6666;
+}
+
+.err {
+    color: #ff0000;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Mobile responsive design */
+@media screen and (max-width: 600px) {
+    form div label {
+        font-size: 24px;
+    }
+
+    form div input, form div textarea {
+        font-size: 14px;
+    }
+
+    form input[type=submit] {
+        font-size: 24px;
+        padding: 4px 12px;
+        width: 120px;
+    }
+
+    .err {
+        font-size: 16px;
+    }
+}
+
+/* Desktop responsive design */
+@media screen and (min-width: 600px) {
+    form div label {
+        font-size: 30px;
+    }
+
+    form div input, form div textarea {
+        font-size: 16px;
+    }
+
+    form input[type=submit] {
+        font-size: 30px;
+        padding: 4px 12px;
+        width: 150px;
+    }
+
+    .err {
+        font-size: 20px;
+    }
+}
