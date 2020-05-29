@@ -36,30 +36,62 @@
     object-fit: cover;
 }
 
-.button {
-    background-color: #000000;
-    display: block;
-    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+#skillsheet {
+    display: grid;
+    font-size: 48px;
+    grid-template-columns: 100px 100px 100px;
     margin: 24px auto;
+    text-align: center;
+    width: 300px;
+}
+
+#skillsheet i {
+    padding: 12px;
+}
+
+.button, .buttonsml, .link {
+    background-color: #000000;
+    border-radius: 20px;
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
     padding: 4px 12px;
     text-align: center;
 }
 
-a.button:link, a.button:visited {
+.button {
+    display: block;
+    margin: 24px auto;
+}
+
+.buttonsml {
+    display: inline-block;
+    font-size: 20px;
+    margin: 24px 12px;
+    width: 120px;
+}
+
+.link {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+a.button:link, a.button:visited, a.buttonsml:link, a.buttonsml:visited, a.link:link, a.link:visited {
     color: #ffffff;
     text-decoration: none;
 }
 
-a.button:hover {
+a.button:hover, a.buttonsml:hover, a.link:hover {
     color: #ffff66;
 }
 
-a.button:active {
+a.button:active, a.buttonsml:active, a.link:active {
     color: #ff6666;
 }
 
 .proj {
     border: 3px solid #000000;
+    box-shadow: 4px 4px 8px;
     display: grid;
     margin: 30px 0;
     width: 100%;
@@ -125,6 +157,12 @@ a.button:active {
     }
 }
 
+@media screen and (max-width: 960px) {
+    .info {
+        text-align: center;
+    }
+}
+
 /* Desktop responsive design */
 @media screen and (min-width: 600px) {
     #wrapper {
@@ -175,6 +213,19 @@ a.button:active {
 @media screen and (min-width: 960px) {
     #wrapper {
         width: 800px;
+    }
+
+    form {
+        float: left;
+    }
+
+    .info {
+        float: right;
+        width: 360px;
+    }
+
+    footer {
+        clear: both;
     }
 
     .proj {
