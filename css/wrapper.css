@@ -227,17 +227,17 @@ a.button:active, a.buttonsml:active, a.link:active {
     #skillsheet li {
         border: 3px solid #000000;
         border-radius: 50%;
-        box-shadow: 6px 6px 18px;
+        box-shadow: 4px 4px 12px;
         margin: auto;
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
     }
     
     #skillsheet p {
         font-weight: bold;
         margin: 10px !important;
         padding: 12px;
-        padding-top: 50px;
+        padding-top: 40px;
     }
     
     #skillsheet .fab, #skillsheet .fas {
