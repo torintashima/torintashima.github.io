@@ -54,4 +54,30 @@ function validate() {
     msg.addEventListener('input', function(event) {
         errmsg.innerText = '';
     });
+
+    form.addEventListener('submit', function(event) {
+        if (!fname.value || !email.value || !email.validity.valid || !subject.value || !msg.value) {
+            event.preventDefault();
+        }
+
+        if (!fname.value) {
+            errname.innerText = 'Please enter a name.';
+        }
+
+        if (!email.value) {
+            erremail.innerText = 'Please enter an email address.';
+        }
+
+        if (!email.validity.valid) {
+            erremail.innerText = 'Please enter a valid email address.';
+        }
+
+        if (!subject.value) {
+            errsubject.innerText = 'Please enter a subject name.';
+        }
+
+        if (!msg.value) {
+            errmsg.innerText = 'Please enter a message.';
+        }
+    })
 }

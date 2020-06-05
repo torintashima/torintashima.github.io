@@ -44,6 +44,7 @@
         <!-- Start of splash section -->
         <!-- Refer to css/splash.css for splash style -->
         <div id="splash">
+            <h1>Torin Tashima</h1>
             <p>Web developer.</p>
             <p>Web designer.</p>
             <p id="third"></p>
@@ -57,20 +58,20 @@
                 <hr>
                 <h2>About</h2>
                 <img id="myimg" src="img/profile-pic.jpg" alt="A portrait of Torin Tashima smiling.">
-                <p>Welcome! My name is Torin Tashima. I am a web development student at Clark College in Vancouver, Washington.</p>
+                <p>Welcome! My name is Torin Tashima. I am a web developer and a recent graduate from Clark College in Vancouver, Washington.</p>
                 <p>I have been interested in web development ever since I made my first HTML page back in eighth grade. From there, I've taken electives in high school related to programming and web development. It's been a nice journey so far and I am learning a lot.</p>
                 <p>My spare time involves composing music, playing the guitar, and drawing on my Wacom tablet.</p><br>
                 <h3>Skills</h3>
-                <div id="skillsheet">
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3"></i>
-                    <i class="fab fa-js"></i>
-                    <i class="fab fa-php"></i>
-                    <i class="fab fa-wordpress"></i>
-                    <i class="fas fa-database"></i>
-                </div>
+                <ul id="skillsheet">
+                    <li><p>HTML5<i class="fab fa-html5"></i></p></li>
+                    <li><p>CSS3<i class="fab fa-css3"></i></p></li>
+                    <li><p>JavaScript<i class="fab fa-js"></i></p></li>
+                    <li><p>PHP<i class="fab fa-php"></i></p></li>
+                    <li><p>WordPress<i class="fab fa-wordpress"></i></p></li>
+                    <li><p>MySQL<i class="fas fa-database"></i></p></li>
+                </ul>
                 <h3>Resume</h3>
-                <p>Interested in working with me? Download my resume below.</p>
+                <p class="centered">Interested in working with me? Download my resume.</p>
                 <a class="button" href="pdf/torin-tashima-resume.pdf" download>Download Resume (PDF)</a>
             </div>
             <!-- End of about section -->
@@ -139,7 +140,7 @@
                     <p><i class="fas fa-envelope"></i> ttashima7@gmail.com</p>
                     <p><i class="fas fa-phone"></i> (360) 600-6395</p>
                 </div>
-                <form method="post">
+                <form action="php/contact-form.php" method="post">
                     <div class="field">
                         <label for="name">Your Name * <span class="err" id="errname"></span></label><br>
                         <input type="text" id="name" name="name">
@@ -161,10 +162,14 @@
                 <div class="info">
                     <p>Also check me on:</p>
                     <a class="buttonsml" href="https://www.linkedin.com/in/torin-t-52352b14a/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    <a class="buttonsml" href="https://github.com/torintashima"><i class="fab fa-github"> GitHub</i></a>
+                    <a class="buttonsml" href="https://github.com/torintashima"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
             <!-- End of contact section -->
+            <div class="section" id="totop">
+                <hr>
+                <a class="button" href="#">Go Back to Top</a>
+            </div>
         </div>
         <!-- End of wrapper section -->
         <!-- Start of footer section -->

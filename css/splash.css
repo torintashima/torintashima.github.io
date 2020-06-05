@@ -5,28 +5,33 @@
     min-height: 100%;
 }
 
-#splash p {
+#splash p, #splash h1 {
     position: relative;
+    text-align: center;
 }
 
 /* Mobile responsive design */
 @media screen and (max-width: 600px) {
     #splash p {
-        display: block;
         font-size: 30px;
-        text-align: center;
         top: 180px;
+    }
+
+    #splash h1 {
+        font-size: 60px;
+        top: 150px;
     }
 }
 
 /* Desktop responsive design */
 @media screen and (min-width: 600px) {
     #splash p {
-        display: inline-block;
         font-size: 40px;
-        text-align: left;
-        left: 20%;
-        top: 300px;
-        width: 80%;
+        top: 240px;
+    }
+
+    #splash h1 {
+        font-size: 80px;
+        top: 200px;
     }
 }
