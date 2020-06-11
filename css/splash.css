@@ -5,6 +5,10 @@
     min-height: 100%;
 }
 
+#splash h1 {
+    text-transform: uppercase;
+}
+
 #splash p, #splash h1 {
     position: relative;
     text-align: center;
