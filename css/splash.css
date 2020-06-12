@@ -10,10 +10,13 @@
 }
 
 #splash i {
-    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
-#splash p, #splash h1, #splash i {
+#splash p, #splash h1 {
     position: relative;
     text-align: center;
 }
@@ -32,7 +35,7 @@
 
     #splash i {
         font-size: 54px;
-        top: 300px;
+        bottom: 30px;
     }
 }
 
@@ -50,6 +53,6 @@
 
     #splash i {
         font-size: 72px;
-        top: 400px;
+        bottom: 40px;
     }
 }
