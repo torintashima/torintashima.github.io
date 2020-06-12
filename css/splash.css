@@ -26,12 +26,12 @@
     }
 
     #splash h1 {
-        font-size: 60px;
+        font-size: 54px;
         top: 150px;
     }
 
     #splash i {
-        font-size: 60px;
+        font-size: 54px;
         top: 300px;
     }
 }
@@ -44,12 +44,12 @@
     }
 
     #splash h1 {
-        font-size: 80px;
+        font-size: 72px;
         top: 200px;
     }
 
     #splash i {
-        font-size: 80px;
+        font-size: 72px;
         top: 400px;
     }
 }
