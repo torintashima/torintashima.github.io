@@ -9,7 +9,11 @@
     text-transform: uppercase;
 }
 
-#splash p, #splash h1 {
+#splash i {
+    display: block;
+}
+
+#splash p, #splash h1, #splash i {
     position: relative;
     text-align: center;
 }
@@ -25,6 +29,11 @@
         font-size: 60px;
         top: 150px;
     }
+
+    #splash i {
+        font-size: 60px;
+        top: 300px;
+    }
 }
 
 /* Desktop responsive design */
@@ -37,5 +46,10 @@
     #splash h1 {
         font-size: 80px;
         top: 200px;
+    }
+
+    #splash i {
+        font-size: 80px;
+        top: 400px;
     }
 }
