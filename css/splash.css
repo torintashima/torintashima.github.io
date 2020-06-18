@@ -9,11 +9,24 @@
     text-transform: uppercase;
 }
 
-#splash i {
+#splash a {
     position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#splash a:link, #splash a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+#splash a:hover {
+    animation-fill-mode: forwards;
+    color: #727272;
+}
+
+#splash a:active {
+    color: #000000;
 }
 
 #splash p, #splash h1 {
@@ -33,9 +46,14 @@
         top: 150px;
     }
 
-    #splash i {
+    #splash a {
         font-size: 54px;
         bottom: 30px;
+    }
+
+    #splash a:hover {
+        animation-duration: 1s;
+        animation-name: dropdown-mobile;
     }
 }
 
@@ -51,8 +69,34 @@
         top: 200px;
     }
 
-    #splash i {
+    #splash a {
         font-size: 72px;
         bottom: 40px;
+    }
+
+    #splash a:hover {
+        animation-duration: 1s;
+        animation-name: dropdown-desktop;
+    }
+}
+
+/* Splash screen animations */
+@keyframes dropdown-mobile {
+    from {
+        bottom: 30px;
+    }
+
+    to {
+        bottom: 40px;
+    }
+}
+
+@keyframes dropdown-desktop {
+    from {
+        bottom: 40px;
+    }
+
+    to {
+        bottom: 50px;
     }
 }
