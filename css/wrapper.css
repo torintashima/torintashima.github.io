@@ -149,6 +149,11 @@ a.button:active, a.buttonsml:active, a.link:active {
         margin-right: 50px;
     }
 
+    .exp p {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
     #certs li {
         margin-top: 4px;
     }
