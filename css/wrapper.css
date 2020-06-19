@@ -141,12 +141,16 @@ a.button:active, a.buttonsml:active, a.link:active {
         font-size: 24px;
     }
 
-    #wrapper p {
+    #wrapper p, #certs {
         font-size: 18px;
         line-height: 1.2em;
         margin-top: 20px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    #certs li {
+        margin-top: 4px;
     }
 
     #imghead img {
@@ -239,10 +243,14 @@ a.button:active, a.buttonsml:active, a.link:active {
         font-size: 30px;
     }
 
-    #wrapper p {
+    #wrapper p, #certs {
         font-size: 24px;
         line-height: 1.4em;
         margin-top: 30px;
+    }
+
+    #certs li {
+        margin-top: 6px;
     }
 
     #imghead img {
