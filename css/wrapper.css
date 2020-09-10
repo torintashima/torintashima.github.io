@@ -124,6 +124,10 @@ a.button:active, a.buttonsml:active, a.link:active {
     text-align: center;
 }
 
+.info {
+    text-align: center;
+}
+
 /* Mobile responsive design */
 @media screen and (max-width: 600px) {
     #wrapper {
@@ -226,11 +230,11 @@ a.button:active, a.buttonsml:active, a.link:active {
     }
 }
 
-@media screen and (max-width: 960px) {
+/*@media screen and (max-width: 960px) {
     .info {
         text-align: center;
     }
-}
+}*/
 
 /* Desktop responsive design */
 @media screen and (min-width: 600px) {
@@ -331,10 +335,10 @@ a.button:active, a.buttonsml:active, a.link:active {
         float: left;
     }
 
-    .info {
+    /*.info {
         float: right;
         width: 360px;
-    }
+    }*/
 
     footer, #totop {
         clear: both;
