@@ -333,6 +333,7 @@ document.addEventListener("mousemove", (event) => {
 });
 
 document.addEventListener("touchmove", (event) => {
+    event.preventDefault();
     touchMove(event);
 });
 
