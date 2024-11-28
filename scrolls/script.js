@@ -194,8 +194,8 @@ const touchStart = (event) => {
     const tileHeight = currentHeight / rows;
 
     // Get mouse positions relative to the top-left corner of the canvas
-    const mouseX = event.clientX - rect.left;
-    const mouseY = event.clientY - rect.top;
+    const mouseX = event.touches ? event.touches[0].clientX : event.clientX - rect.left;
+    const mouseY = event.touches ? event.touches[0].clientY : event.clientY - rect.top;
 
     // Get ratios of assigned canvas dimensions to resized canvas dimensions
     const widthRatio = canvas.width / currentWidth;
@@ -231,8 +231,8 @@ const touchMove = (event) => {
         const heightRatio = canvas.height / currentHeight;
 
         // Get mouse positions relative to the top-left corner of the canvas
-        const mouseX = (event.clientX - rect.left) * widthRatio;
-        const mouseY = (event.clientY - rect.top) * heightRatio;
+        const mouseX = event.touches ? (event.touches[0].clientX - rect.left) * widthRatio : (event.clientX - rect.left) * widthRatio;
+        const mouseY = event.touches ? (event.touches[0].clientY - rect.top) * heightRatio : (event.clientY - rect.top) * heightRatio;
 
         // Get distances along both axes from where mouse was when user clicked on the canvas
         const dx = mouseX - clickX;
