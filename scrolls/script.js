@@ -324,6 +324,7 @@ canvas.addEventListener("mousedown", (event) => {
 });
 
 canvas.addEventListener("touchstart", (event) => {
+    event.preventDefault();
     touchStart(event);
 });
 
