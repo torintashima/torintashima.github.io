@@ -180,6 +180,8 @@ const draw = () => {
 };
 
 const touchStart = (event) => {
+    event.preventDefault();
+
     dragging = true;
     const rect = canvas.getBoundingClientRect();
 
@@ -211,6 +213,8 @@ const touchStart = (event) => {
 };
 
 const touchMove = (event) => {
+    event.preventDefault();
+
     if (dragging) {
         const rect = canvas.getBoundingClientRect();
 
@@ -274,7 +278,9 @@ const touchMove = (event) => {
     }
 };
 
-const touchEnd = () => {
+const touchEnd = (event) => {
+    event.preventDefault();
+
     if (dragging && axisMoved && !solved) {
         moves++;
     }
@@ -319,23 +325,11 @@ const init = () => {
     draw();
 };
 
-canvas.addEventListener("mousedown", (event) => {
-    touchStart(event);
-});
+canvas.addEventListener("mousedown", touchStart);
+canvas.addEventListener("touchstart", touchStart);
 
-canvas.addEventListener("touchstart", (event) => {
-    event.preventDefault();
-    touchStart(event);
-});
-
-document.addEventListener("mousemove", (event) => {
-    touchMove(event);
-});
-
-document.addEventListener("touchmove", (event) => {
-    event.preventDefault();
-    touchMove(event);
-});
+document.addEventListener("mousemove", touchMove);
+document.addEventListener("touchmove", touchMove);
 
 document.addEventListener("mouseup", touchEnd);
 document.addEventListener("touchend", touchEnd);
