@@ -179,13 +179,7 @@ const draw = () => {
     window.requestAnimationFrame(draw);
 };
 
-const init = () => {
-    fillGrid();
-    shuffleGrid();
-    draw();
-};
-
-canvas.addEventListener("mousedown", (event) => {
+const touchStart = (event) => {
     dragging = true;
     const rect = canvas.getBoundingClientRect();
 
@@ -214,9 +208,9 @@ canvas.addEventListener("mousedown", (event) => {
 
     // console.log(`Row: ${selectedRow} Col: ${selectedCol}`);
     // console.log(dragging);
-});
+};
 
-document.addEventListener("mousemove", (event) => {
+const touchMove = (event) => {
     if (dragging) {
         const rect = canvas.getBoundingClientRect();
 
@@ -278,9 +272,9 @@ document.addEventListener("mousemove", (event) => {
             }
         }
     }
-});
+};
 
-document.addEventListener("mouseup", () => {
+const touchEnd = () => {
     if (dragging && axisMoved && !solved) {
         moves++;
     }
@@ -317,6 +311,31 @@ document.addEventListener("mouseup", () => {
     // Display number of moves
     const moveDiv = document.getElementById("moves");
     moveDiv.innerText = moves;
+};
+
+const init = () => {
+    fillGrid();
+    shuffleGrid();
+    draw();
+};
+
+canvas.addEventListener("mousedown", (event) => {
+    touchStart(event);
 });
+
+canvas.addEventListener("touchstart", (event) => {
+    touchStart(event);
+});
+
+document.addEventListener("mousemove", (event) => {
+    touchMove(event);
+});
+
+document.addEventListener("touchmove", (event) => {
+    touchMove(event);
+});
+
+document.addEventListener("mouseup", touchEnd);
+document.addEventListener("touchend", touchEnd);
 
 init();
