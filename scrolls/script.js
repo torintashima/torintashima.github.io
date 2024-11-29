@@ -157,6 +157,9 @@ const draw = () => {
         tile.draw();
     });
 
+    // Draw the grid border
+    ctx.strokeRect(1,1,canvas.width-2,canvas.height-2);
+
     // Draw the row lines
     for (let row = 1; row < rows; row++) {
         ctx.beginPath();
