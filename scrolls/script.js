@@ -254,7 +254,7 @@ const touchMove = (event) => {
             });
 
             // Check if x-axis has been moved at least one tile (this is for the move counter)
-            if (mod(Math.round(dx / tileWidth), cols) !== 0) {
+            if (mod(Math.round(dx / (canvas.width / cols)), cols) !== 0) {
                 axisMoved = true;
             } else {
                 axisMoved = false;
@@ -269,7 +269,7 @@ const touchMove = (event) => {
             });
 
             // Check if y-axis has been moved at least one tile (this is for the move counter)
-            if (mod(Math.round(dy / tileHeight), rows) !== 0) {
+            if (mod(Math.round(dy / (canvas.height / rows)), rows) !== 0) {
                 axisMoved = true;
             } else {
                 axisMoved = false;

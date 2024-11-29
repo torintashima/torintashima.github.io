@@ -25,6 +25,7 @@ body {
 #game-info {
     display: block;
     font-size: 24px;
+    font-weight: bold;
     margin: 0 auto;
     text-align: center;
     width: 600px;
