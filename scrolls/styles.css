@@ -19,7 +19,7 @@ body {
 
 #game {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 #game-info, #instructions, #footer {
@@ -35,13 +35,12 @@ body {
     border-radius: 20px;
     margin: 20px auto;
     padding: 20px;
-    width: 600px;
+    width: 560px;
 }
 
 #move-count {
     font-weight: bold;
     margin: 0 auto;
-    padding: 10px 0;
     text-align: center;
     width: 640px;
 }
@@ -53,10 +52,10 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 680px) {
     #game {
-        width: calc(100% - 100px);
-        height: calc(100% - 100px);
+        width: calc(100% - 80px);
+        height: calc(100% - 80px);
     }
 
     #game-info, #move-count, #footer {
@@ -65,6 +64,6 @@ body {
 
     #instructions {
         font-size: 20px;
-        width: calc(100% - 80px);
+        width: calc(100% - 120px);
     }
 }
