@@ -1,0 +1,442 @@
+{
+    "anims": [
+        {
+            "key": "player-walk-right",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-right00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-right01.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "player-walk-up",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-up00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-up01.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-up00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-up02.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "player-walk-down",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-down00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-down01.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-down00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-down02.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "player-idle-right",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-right00.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "player-idle-up",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-up00.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "player-idle-down",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "player-down00.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "water-stream-body",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-stream00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-stream01.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-stream02.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-stream03.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "water-stream-start",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-start00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-start01.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "water-stream-end",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-end00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "water-end01.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-very-dirty-horizontal",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty01.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-dirty-horizontal",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty02.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty03.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-slightly-dirty-horizontal",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty04.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty05.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-clean-horizontal",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean00.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean01.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean02.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean03.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean04.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-very-dirty-vertical",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty06.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty07.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-dirty-vertical",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty08.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty09.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-slightly-dirty-vertical",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty10.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-dirty11.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "keg-clean-vertical",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean05.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean06.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean07.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean08.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "hmb-sprites",
+                    "frame": "keg-clean09.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

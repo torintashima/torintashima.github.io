@@ -1,0 +1,379 @@
+{
+    "id": "93593d31-d5ee-4f70-b2db-2e4001f057df",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LevelTwo",
+        "borderWidth": 640,
+        "borderHeight": 360
+    },
+    "displayList": [
+        {
+            "type": "EditableTilemapLayer",
+            "id": "af4f5e95-c9d7-41e1-bb34-e726dbdb0879",
+            "label": "layer",
+            "tilemapId": "b535d714-abe3-4c82-818e-b9724dd649c5"
+        },
+        {
+            "prefabId": "0345f84f-a3d6-41cf-8213-e471fc0ae5d8",
+            "id": "9cda028a-8c49-43ff-b82c-8895e45727da",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "x": 320,
+            "y": 180
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "dbb2166d-c7d5-4357-b5a4-4bd9631ed6ba",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical",
+            "x": 122,
+            "y": 144
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "6c86085a-fc91-467a-8ecc-66ae560a5863",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical_1",
+            "x": 443,
+            "y": 204
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "74777d3d-d0ec-4c12-916c-07f3a4bdfd09",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal",
+            "x": 144,
+            "y": 88
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "fec89eaf-2e1f-4ff2-8165-6667902b2a93",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal_1",
+            "x": 480,
+            "y": 130
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "c862602e-48b2-4316-99f0-fafd54c578b7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal_2",
+            "x": 268,
+            "y": 216
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "30583426-57db-4113-908d-68f205d36f61",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal_3",
+            "x": 372,
+            "y": 155
+        },
+        {
+            "prefabId": "6594727c-ee48-44db-bc37-84e43ad7575d",
+            "id": "207a9ffe-fbb3-4d8a-a05d-c58580925a6a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "water",
+            "scope": "CLASS",
+            "x": 727,
+            "y": 38
+        },
+        {
+            "type": "Rectangle",
+            "id": "bb9afc46-72d7-4c1a-9da8-7c876ef53f79",
+            "label": "rectangle_1",
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 640,
+            "body.height": 64,
+            "isFilled": true,
+            "width": 640,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "98b8f3f3-c792-4e76-b947-ee95b025bcd3",
+            "label": "rectangle",
+            "y": 288,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 640,
+            "body.height": 64,
+            "isFilled": true,
+            "width": 640,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "c1b276b2-dfb0-4af4-a982-4004a105b828",
+            "label": "rectangle_2",
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 96,
+            "body.height": 360,
+            "isFilled": true,
+            "width": 96,
+            "height": 360
+        },
+        {
+            "type": "Rectangle",
+            "id": "10563cb6-3659-4e4a-ba97-d6aa2bbc08dc",
+            "label": "rectangle_3",
+            "x": 544,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 96,
+            "body.height": 360,
+            "isFilled": true,
+            "width": 96,
+            "height": 360
+        },
+        {
+            "type": "Rectangle",
+            "id": "952215b2-f082-4e92-8738-7def0e49adf2",
+            "label": "rectangle_4",
+            "x": 256,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 128,
+            "body.height": 128,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "933a9be6-be7a-4693-a62c-f30a7712df31",
+            "label": "rectangle_5",
+            "y": 224,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 224,
+            "body.height": 128,
+            "isFilled": true,
+            "width": 224,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "cfb391f4-5f13-46f2-ba05-cd2df1154ed2",
+            "label": "rectangle_6",
+            "x": 416,
+            "y": 224,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 224,
+            "body.height": 128,
+            "isFilled": true,
+            "width": 224,
+            "height": 128
+        },
+        {
+            "type": "Text",
+            "id": "26f7175d-0116-4469-b4fc-ad0717ac1fb9",
+            "label": "text_1",
+            "x": 320,
+            "y": 340,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "OOWI BREWY",
+            "fontFamily": "Impact",
+            "fontSize": "24px",
+            "shadow.offsetX": 1,
+            "shadow.offsetY": 1,
+            "shadow.fill": true
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "b535d714-abe3-4c82-818e-b9724dd649c5",
+            "type": "EditableTilemap",
+            "label": "editabletilemap",
+            "width": 20,
+            "height": 12,
+            "tileWidth": 32,
+            "tileHeight": 32,
+            "tilesets": [
+                {
+                    "name": "hmb-tiles",
+                    "imageKey": "hmb-tiles",
+                    "tileWidth": 32,
+                    "tileHeight": 32,
+                    "tileMargin": 0,
+                    "tileSpacing": 0
+                }
+            ],
+            "paintLayerId": "af4f5e95-c9d7-41e1-bb34-e726dbdb0879",
+            "paintTileset": "hmb-tiles",
+            "layers": [
+                {
+                    "name": "layer",
+                    "data": "[14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,1,2,2,2,2,2,3,14,14,1,2,2,2,2,2,3,14,14,14,14,6,7,7,7,7,7,8,14,14,6,7,7,7,7,7,8,14,14,14,14,6,7,7,7,7,7,9,2,2,10,7,7,7,7,7,8,14,14,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,14,14,11,12,12,12,5,7,7,7,7,7,7,4,12,12,12,13,14,14,14,14,14,14,14,14,6,7,7,7,7,7,7,8,14,14,14,14,14,14,14,14,14,14,14,14,11,12,12,12,12,12,12,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14]",
+                    "width": 20,
+                    "height": 12,
+                    "tileWidth": 32,
+                    "tileHeight": 32
+                }
+            ]
+        },
+        {
+            "id": "c28fc6c5-5dde-4969-b96b-59073187a385",
+            "type": "Keyboard.Key",
+            "label": "zKey",
+            "keyCode": "Z"
+        },
+        {
+            "id": "2ffebafa-e2a7-4a7b-808f-d4864b6e7781",
+            "type": "Keyboard.Key",
+            "label": "downKey",
+            "keyCode": "DOWN"
+        },
+        {
+            "id": "2d55fb9e-d63e-4f2f-97cf-8cef15c9a3c6",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "e7f3f55c-26ee-4d4b-bf97-b20883d9372a",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "c2ef7fd1-eb27-437d-85b7-0963766c5ee8",
+            "type": "Keyboard.Key",
+            "label": "upKey",
+            "keyCode": "UP"
+        },
+        {
+            "id": "2877f6f1-d679-46bc-929c-e0abaab8519f",
+            "type": "Collider",
+            "label": "colliderKegsAgainstWalls",
+            "scope": "LOCAL",
+            "object1": "kegs",
+            "object2": "walls",
+            "collideCallback": "(keg) => { this.makeKegBounce(keg) }"
+        },
+        {
+            "id": "678d2cbc-1e61-4011-996e-b85e0813cfcf",
+            "type": "Collider",
+            "label": "colliderPlayerAgainstWalls",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "walls"
+        },
+        {
+            "id": "97b36711-9870-407a-a026-b588d7d61caf",
+            "type": "Collider",
+            "label": "colliderPlayerAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "kegs",
+            "collideCallback": "(player, keg) => { this.makeKegBounce(keg); }"
+        },
+        {
+            "id": "310ece3f-dc9c-4ea2-933b-fa0fda9093c4",
+            "type": "Collider",
+            "label": "colliderKegsAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "kegs",
+            "object2": "kegs",
+            "collideCallback": "(keg1, keg2) => { this.makeKegBounce(keg1); this.makeKegBounce(keg2); }"
+        },
+        {
+            "id": "0c460ab4-efd0-464a-ac03-304b20d8d504",
+            "type": "Collider",
+            "label": "overlapWaterAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "water",
+            "object2": "kegs",
+            "overlapOnly": true,
+            "collideCallback": "(water, keg) => { this.shortenWater(water, keg); this.cleanKeg(keg); }"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "27f58d8e-976d-4904-84e3-6b8d73082fe0",
+            "label": "kegs",
+            "objectIds": [
+                "6c86085a-fc91-467a-8ecc-66ae560a5863",
+                "dbb2166d-c7d5-4357-b5a4-4bd9631ed6ba",
+                "30583426-57db-4113-908d-68f205d36f61",
+                "c862602e-48b2-4316-99f0-fafd54c578b7",
+                "fec89eaf-2e1f-4ff2-8165-6667902b2a93",
+                "74777d3d-d0ec-4c12-916c-07f3a4bdfd09"
+            ]
+        },
+        {
+            "id": "860d0cfc-fdfb-4bce-88b0-05c04563fc58",
+            "label": "walls",
+            "objectIds": [
+                "bb9afc46-72d7-4c1a-9da8-7c876ef53f79",
+                "98b8f3f3-c792-4e76-b947-ee95b025bcd3",
+                "c1b276b2-dfb0-4af4-a982-4004a105b828",
+                "10563cb6-3659-4e4a-ba97-d6aa2bbc08dc",
+                "952215b2-f082-4e92-8738-7def0e49adf2",
+                "933a9be6-be7a-4693-a62c-f30a7712df31",
+                "cfb391f4-5f13-46f2-ba05-cd2df1154ed2"
+            ]
+        }
+    ]
+}

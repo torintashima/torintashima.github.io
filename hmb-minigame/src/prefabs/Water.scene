@@ -1,0 +1,42 @@
+{
+    "id": "6594727c-ee48-44db-bc37-84e43ad7575d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 640,
+        "borderHeight": 360
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "680ea5b2-3694-476e-9379-cd52a025fa00",
+            "label": "container_1",
+            "blendMode": -1,
+            "texture": {
+                "key": "hmb-sprites",
+                "frame": "water-stream00.png"
+            },
+            "x": 217,
+            "y": 59,
+            "ArcadeComponent.active": true,
+            "pushable": false,
+            "body.width": 90,
+            "body.height": 2,
+            "body.offset.x": 3,
+            "body.offset.y": 7,
+            "animationPlayMethod": 1,
+            "animationKey": "water-stream-body"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

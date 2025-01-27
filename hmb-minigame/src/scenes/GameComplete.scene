@@ -1,0 +1,47 @@
+{
+    "id": "239cf29b-637e-4599-87ef-d07f57bedd42",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "GameComplete",
+        "borderWidth": 640,
+        "borderHeight": 360
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "2d852ca5-5e69-428c-9f2a-f7e867734a69",
+            "label": "rectangle_1",
+            "x": 320,
+            "y": 120,
+            "isFilled": true,
+            "fillColor": "#333",
+            "fillAlpha": 0.75,
+            "width": 400,
+            "height": 120
+        },
+        {
+            "type": "Text",
+            "id": "57958cb2-bd8d-4890-be31-d026c87520cf",
+            "label": "text_1",
+            "x": 320,
+            "y": 120,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Congratulations!\n\nYou've completed all three levels!\nThanks for playing!\nPlease Refresh the page to try again.",
+            "align": "center",
+            "fontFamily": "Arial"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

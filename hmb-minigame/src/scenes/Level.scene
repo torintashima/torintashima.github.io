@@ -1,0 +1,344 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 640,
+        "borderHeight": 360
+    },
+    "displayList": [
+        {
+            "type": "EditableTilemapLayer",
+            "id": "8295f952-a969-4112-ba66-527fee05d16b",
+            "label": "layer",
+            "tilemapId": "4ff7a416-fdf7-44cc-88f1-8ee0af697a17"
+        },
+        {
+            "prefabId": "0345f84f-a3d6-41cf-8213-e471fc0ae5d8",
+            "id": "bd276beb-061e-4914-a6d5-50291645a151",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "x": 320,
+            "y": 180
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "83737af1-3690-481c-9c41-19bfe5c8541e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal",
+            "x": 485,
+            "y": 221
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "8bb3c830-d8fb-408a-a71a-b3e093e33106",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical",
+            "x": 399,
+            "y": 109
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "aa5a42cc-2c50-43e4-a8c7-d1921c6e6ae5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal_2",
+            "x": 273,
+            "y": 169
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "6140bfad-0d71-442d-a702-c2ee21f4fe12",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical_1",
+            "x": 239,
+            "y": 275
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "c5686a71-4790-46b7-b793-c5a198cab0ac",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal_1",
+            "x": 131,
+            "y": 105
+        },
+        {
+            "type": "Rectangle",
+            "id": "c7582fb3-2e0a-47f7-86f4-dc89d8819831",
+            "label": "rectangle_1",
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "moves": false,
+            "allowGravity": false,
+            "allowDrag": false,
+            "allowRotation": false,
+            "pushable": false,
+            "body.width": 640,
+            "body.height": 64,
+            "isFilled": true,
+            "width": 640,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "75548571-eb1c-4ce8-abd2-6c1521887c0d",
+            "label": "rectangle",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 640,
+            "hitArea.height": 64,
+            "y": 320,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "moves": false,
+            "allowGravity": false,
+            "allowDrag": false,
+            "allowRotation": false,
+            "pushable": false,
+            "body.width": 640,
+            "body.height": 64,
+            "isFilled": true,
+            "width": 640,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "8ac8d704-8171-4608-ac3e-9d051042039d",
+            "label": "rectangle_2",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 64,
+            "hitArea.height": 360,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "moves": false,
+            "allowGravity": false,
+            "allowDrag": false,
+            "allowRotation": false,
+            "pushable": false,
+            "body.width": 64,
+            "body.height": 360,
+            "isFilled": true,
+            "width": 64,
+            "height": 360
+        },
+        {
+            "type": "Rectangle",
+            "id": "e26e5006-4e27-4aa1-b914-3d7f711e3d61",
+            "label": "rectangle_3",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 64,
+            "hitArea.height": 360,
+            "x": 576,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "moves": false,
+            "allowGravity": false,
+            "allowDrag": false,
+            "allowRotation": false,
+            "pushable": false,
+            "body.width": 64,
+            "body.height": 360,
+            "isFilled": true,
+            "width": 64,
+            "height": 360
+        },
+        {
+            "prefabId": "6594727c-ee48-44db-bc37-84e43ad7575d",
+            "id": "784ca180-9cd8-47ec-9d49-c4e30ee0d4f8",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "water",
+            "scope": "CLASS",
+            "x": 705,
+            "y": 8
+        },
+        {
+            "type": "Text",
+            "id": "e446c839-7dcf-46f1-b739-d6b1d69d9e5b",
+            "label": "text_1",
+            "x": 320,
+            "y": 340,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "OOWI BREWY",
+            "fontFamily": "Impact",
+            "fontSize": "24px",
+            "shadow.offsetX": 1,
+            "shadow.offsetY": 1,
+            "shadow.fill": true
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "cdbd748b-3f33-4ca2-a14b-d245b104a122",
+            "type": "Keyboard.Key",
+            "label": "zKey",
+            "keyCode": "Z"
+        },
+        {
+            "id": "a6407e6b-2713-4c1d-9b9f-ae8174de9045",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "00efad24-a26f-40cb-a751-76df8b034960",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "36bbedbf-24a8-4ac5-a2fc-588471219dfb",
+            "type": "Keyboard.Key",
+            "label": "upKey",
+            "keyCode": "UP"
+        },
+        {
+            "id": "b92383e2-50da-427b-bbb9-77eb578c009b",
+            "type": "Keyboard.Key",
+            "label": "downKey",
+            "keyCode": "DOWN"
+        },
+        {
+            "id": "e8998a1b-6fc5-4107-8a0c-6d02f612a7bd",
+            "type": "Collider",
+            "label": "colliderKegsAgainstWalls",
+            "scope": "LOCAL",
+            "object1": "kegs",
+            "object2": "walls",
+            "collideCallback": "(keg) => { this.makeKegBounce(keg) }"
+        },
+        {
+            "id": "af16a017-0f59-45a4-bc17-a42d5e68c47c",
+            "type": "Collider",
+            "label": "colliderPlayerAgainstWalls",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "walls"
+        },
+        {
+            "id": "4374cf11-68c6-4cef-a1a6-ee16166a8950",
+            "type": "Collider",
+            "label": "colliderPlayerAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "kegs",
+            "collideCallback": "(player, keg) => { this.makeKegBounce(keg); }"
+        },
+        {
+            "id": "d56a2a26-f0d9-4cda-b4db-5085f18f3903",
+            "type": "Collider",
+            "label": "colliderKegsAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "kegs",
+            "object2": "kegs",
+            "collideCallback": "(keg1, keg2) => { this.makeKegBounce(keg1); this.makeKegBounce(keg2); }"
+        },
+        {
+            "id": "f8a4f3d4-dc54-4aee-8c32-790d0ff3f6be",
+            "type": "Collider",
+            "label": "overlapWaterAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "water",
+            "object2": "kegs",
+            "overlapOnly": true,
+            "collideCallback": "(water, keg) => { this.shortenWater(water, keg); this.cleanKeg(keg); }"
+        },
+        {
+            "id": "4ff7a416-fdf7-44cc-88f1-8ee0af697a17",
+            "type": "EditableTilemap",
+            "label": "editabletilemap",
+            "width": 20,
+            "height": 12,
+            "tileWidth": 32,
+            "tileHeight": 32,
+            "tilesets": [
+                {
+                    "name": "hmb-tiles",
+                    "imageKey": "hmb-tiles",
+                    "tileWidth": 32,
+                    "tileHeight": 32,
+                    "tileMargin": 0,
+                    "tileSpacing": 0
+                }
+            ],
+            "paintLayerId": "8295f952-a969-4112-ba66-527fee05d16b",
+            "paintTileset": "hmb-tiles",
+            "layers": [
+                {
+                    "name": "layer",
+                    "data": "[14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14]",
+                    "width": 20,
+                    "height": 12,
+                    "tileWidth": 32,
+                    "tileHeight": 32
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "7d20625d-92cb-4235-99c9-521ca3094476",
+            "label": "kegs",
+            "objectIds": [
+                "83737af1-3690-481c-9c41-19bfe5c8541e",
+                "8bb3c830-d8fb-408a-a71a-b3e093e33106",
+                "aa5a42cc-2c50-43e4-a8c7-d1921c6e6ae5",
+                "c5686a71-4790-46b7-b793-c5a198cab0ac",
+                "6140bfad-0d71-442d-a702-c2ee21f4fe12"
+            ]
+        },
+        {
+            "id": "e836e6fd-7ec3-451f-aff2-80412cf1d35d",
+            "label": "walls",
+            "objectIds": [
+                "c7582fb3-2e0a-47f7-86f4-dc89d8819831",
+                "75548571-eb1c-4ce8-abd2-6c1521887c0d",
+                "8ac8d704-8171-4608-ac3e-9d051042039d",
+                "e26e5006-4e27-4aa1-b914-3d7f711e3d61"
+            ]
+        }
+    ]
+}

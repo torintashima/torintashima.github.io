@@ -1,0 +1,54 @@
+{
+    "id": "a5b4ef25-70db-434d-b7ce-8710eb8e954c",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LevelComplete",
+        "borderWidth": 640,
+        "borderHeight": 360
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "b40a5f92-696f-4a86-9ed0-10c628be59c4",
+            "label": "rectangle_1",
+            "x": 320,
+            "y": 120,
+            "isFilled": true,
+            "fillColor": "#333",
+            "fillAlpha": 0.75,
+            "width": 400,
+            "height": 80
+        },
+        {
+            "type": "Text",
+            "id": "31ec7aee-1c48-4c3e-8680-dfbf82612078",
+            "label": "text_1",
+            "x": 320,
+            "y": 120,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "LEVEL COMPLETE!\n\nPress Enter to move to the next level.",
+            "align": "center",
+            "fontFamily": "Arial"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "42d015a7-f784-4fbc-9b44-3cf1c05eb296",
+            "type": "Keyboard.Key",
+            "label": "enterKey",
+            "keyCode": "ENTER"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

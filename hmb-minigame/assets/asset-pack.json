@@ -1,0 +1,56 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": [
+                    "assets/hmb-game-music.wav"
+                ],
+                "type": "audio",
+                "key": "hmb-game-music"
+            },
+            {
+                "url": "assets/hmb-logo.png",
+                "type": "image",
+                "key": "hmb-logo"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/hmb-sprites.json",
+                "path": "assets",
+                "key": "hmb-sprites"
+            },
+            {
+                "url": {
+                    "IMG": "assets/hmb-tiles.png"
+                },
+                "type": "texture",
+                "key": "hmb-tiles"
+            },
+            {
+                "url": [
+                    "assets/tv-static-6411.mp3"
+                ],
+                "type": "audio",
+                "key": "hose-sounds"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}

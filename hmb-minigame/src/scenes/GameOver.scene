@@ -1,0 +1,47 @@
+{
+    "id": "ee462427-9cb3-4086-90ab-a71d9bc9efcc",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "GameOver",
+        "borderWidth": 640,
+        "borderHeight": 360
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "557b17ae-c320-40ec-970d-fff6b3123fe5",
+            "label": "rectangle_1",
+            "x": 320,
+            "y": 120,
+            "isFilled": true,
+            "fillColor": "#333",
+            "fillAlpha": 0.75,
+            "width": 400,
+            "height": 100
+        },
+        {
+            "type": "Text",
+            "id": "d66559fd-8489-4b16-9534-995d42818420",
+            "label": "text_1",
+            "x": 320,
+            "y": 120,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Game Over!\n\nSorry, your time has run out.\nPlease Refresh the page to try again.",
+            "align": "center",
+            "fontFamily": "Arial"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,455 @@
+{
+    "id": "349c45a1-a2d5-45ab-86dc-266670eac77d",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LevelThree",
+        "borderWidth": 640,
+        "borderHeight": 360
+    },
+    "displayList": [
+        {
+            "type": "EditableTilemapLayer",
+            "id": "d42bb18f-2741-4f6f-8465-a4e31faa05ab",
+            "label": "layer",
+            "tilemapId": "766d8543-5ce6-474b-9c43-52aabc4e4b4d"
+        },
+        {
+            "prefabId": "0345f84f-a3d6-41cf-8213-e471fc0ae5d8",
+            "id": "1fe65627-70a8-4fd1-84cb-2d6ed4a5fb82",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "x": 320,
+            "y": 172
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "d6213351-3031-4eef-842c-32b63eba34d6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical",
+            "x": 175,
+            "y": 75
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "31fc301c-b8e6-4e48-9f70-68e284fc0a08",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical_1",
+            "x": 428,
+            "y": 237
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "9e612e47-4a30-491f-a5fa-c90a6c8a3cff",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical_2",
+            "x": 101,
+            "y": 156
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "bfa5768b-bb09-4f16-a64d-ffb8983651ee",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical_3",
+            "x": 479,
+            "y": 177
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "ee819c00-586d-4960-ad5d-8ac4be79f023",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal",
+            "x": 159,
+            "y": 211
+        },
+        {
+            "prefabId": "c08c92f8-6f8f-4e4f-b8e8-650ce81f1a68",
+            "id": "9659c0e6-7594-40c7-9672-13aacc9d5bfb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Horizontal_1",
+            "x": 473,
+            "y": 83
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "735113c1-a4b3-4f04-a68d-23f21830b04a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical_4",
+            "x": 211,
+            "y": 269
+        },
+        {
+            "prefabId": "9b103320-3553-408f-b0dd-04069406ed5b",
+            "id": "26ec346f-03fd-4035-8744-54c6b77324e4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "keg_Vertical_5",
+            "x": 356,
+            "y": 108
+        },
+        {
+            "type": "Rectangle",
+            "id": "291ad37d-5972-4450-b174-ade40bb64a6d",
+            "label": "rectangle_1",
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 128,
+            "body.height": 128,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "8ff87695-2d10-4944-b1af-369c95cec7b7",
+            "label": "rectangle",
+            "x": 512,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 128,
+            "body.height": 128,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "7b4518d5-d3ef-4ceb-9d23-531d10f41d32",
+            "label": "rectangle_2",
+            "y": 224,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 128,
+            "body.height": 128,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "a940a544-b402-4999-9d9b-97e51ffc02fe",
+            "label": "rectangle_3",
+            "x": 512,
+            "y": 224,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 128,
+            "body.height": 128,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "14037a71-dd9b-4f93-bfd8-68578c36f681",
+            "label": "rectangle_4",
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 640,
+            "body.height": 64,
+            "isFilled": true,
+            "width": 640,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "939f6f45-49e9-447b-9b66-4e5297f8c46f",
+            "label": "rectangle_5",
+            "y": 288,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 640,
+            "body.height": 64,
+            "isFilled": true,
+            "width": 640,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "b9b7403b-2ad7-4b53-9d62-7a5f583098a2",
+            "label": "rectangle_6",
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 64,
+            "body.height": 360,
+            "isFilled": true,
+            "width": 64,
+            "height": 360
+        },
+        {
+            "type": "Rectangle",
+            "id": "1b6afbda-f158-4675-8ab8-e63010e917e1",
+            "label": "rectangle_7",
+            "x": 576,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 64,
+            "body.height": 360,
+            "isFilled": true,
+            "width": 64,
+            "height": 360
+        },
+        {
+            "type": "Rectangle",
+            "id": "8d810761-cfad-4168-abd7-51e084a2772e",
+            "label": "rectangle_8",
+            "x": 192,
+            "y": 128,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 96,
+            "body.height": 96,
+            "isFilled": true,
+            "width": 96,
+            "height": 96
+        },
+        {
+            "type": "Rectangle",
+            "id": "9dada54f-705d-4455-a63d-1cef31c6c308",
+            "label": "rectangle_9",
+            "x": 352,
+            "y": 128,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 96,
+            "body.height": 96,
+            "isFilled": true,
+            "width": 96,
+            "height": 96
+        },
+        {
+            "prefabId": "6594727c-ee48-44db-bc37-84e43ad7575d",
+            "id": "f81fc42c-1c7b-4717-8e7d-fd06abffe811",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "water",
+            "scope": "CLASS",
+            "x": 725,
+            "y": 23
+        },
+        {
+            "type": "Text",
+            "id": "c759f3ed-1e04-47e0-b922-de0f6a4fedab",
+            "label": "text_1",
+            "x": 320,
+            "y": 340,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "OOWI BREWY",
+            "fontFamily": "Impact",
+            "fontSize": "24px",
+            "shadow.offsetX": 1,
+            "shadow.offsetY": 1,
+            "shadow.fill": true
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "766d8543-5ce6-474b-9c43-52aabc4e4b4d",
+            "type": "EditableTilemap",
+            "label": "editabletilemap",
+            "width": 20,
+            "height": 12,
+            "tileWidth": 32,
+            "tileHeight": 32,
+            "tilesets": [
+                {
+                    "name": "hmb-tiles",
+                    "imageKey": "hmb-tiles",
+                    "tileWidth": 32,
+                    "tileHeight": 32,
+                    "tileMargin": 0,
+                    "tileSpacing": 0
+                }
+            ],
+            "paintLayerId": "d42bb18f-2741-4f6f-8465-a4e31faa05ab",
+            "paintTileset": "hmb-tiles",
+            "layers": [
+                {
+                    "name": "layer",
+                    "data": "[14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,1,2,2,2,2,2,2,2,2,2,2,2,2,3,14,14,14,14,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,14,14,1,2,10,7,7,7,7,7,7,7,7,7,7,7,7,9,2,3,14,14,6,7,7,7,7,4,12,5,7,7,4,12,5,7,7,7,7,8,14,14,6,7,7,7,7,8,14,6,7,7,8,14,6,7,7,7,7,8,14,14,6,7,7,7,7,9,2,10,7,7,9,2,10,7,7,7,7,8,14,14,11,12,5,7,7,7,7,7,7,7,7,7,7,7,7,4,12,13,14,14,14,14,6,7,7,7,7,7,7,7,7,7,7,7,7,8,14,14,14,14,14,14,11,12,12,12,12,12,12,12,12,12,12,12,12,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14]",
+                    "width": 20,
+                    "height": 12,
+                    "tileWidth": 32,
+                    "tileHeight": 32
+                }
+            ]
+        },
+        {
+            "id": "60305290-d2ea-4ce8-92b6-4fe124e33839",
+            "type": "Collider",
+            "label": "colliderKegsAgainstWalls",
+            "scope": "LOCAL",
+            "object1": "kegs",
+            "object2": "walls",
+            "collideCallback": "(keg) => { this.makeKegBounce(keg) }"
+        },
+        {
+            "id": "4d62563d-f85d-4d12-908d-9e2a7dc54df6",
+            "type": "Collider",
+            "label": "colliderPlayerAgainstWalls",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "walls"
+        },
+        {
+            "id": "74d3dd7e-b410-40e5-a1bb-d64c61a42a0a",
+            "type": "Collider",
+            "label": "colliderPlayerAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "player",
+            "object2": "kegs",
+            "collideCallback": "(player, keg) => { this.makeKegBounce(keg); }"
+        },
+        {
+            "id": "e8f8e162-e0da-4fae-bd0e-194a4331de22",
+            "type": "Collider",
+            "label": "colliderKegsAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "kegs",
+            "object2": "kegs",
+            "collideCallback": "(keg1, keg2) => { this.makeKegBounce(keg1); this.makeKegBounce(keg2); }"
+        },
+        {
+            "id": "05eab305-bd7a-4b01-ba59-99aca5ec742d",
+            "type": "Collider",
+            "label": "overlapWaterAgainstKegs",
+            "scope": "LOCAL",
+            "object1": "water",
+            "object2": "kegs",
+            "overlapOnly": true,
+            "collideCallback": "(water, keg) => { this.shortenWater(water, keg); this.cleanKeg(keg); }"
+        },
+        {
+            "id": "76ce734b-bd17-4ba8-b03c-293125eae377",
+            "type": "Keyboard.Key",
+            "label": "zKey",
+            "keyCode": "Z"
+        },
+        {
+            "id": "ba8166a7-992f-4bb0-954c-df515df76af5",
+            "type": "Keyboard.Key",
+            "label": "downKey",
+            "keyCode": "DOWN"
+        },
+        {
+            "id": "c7ceb664-aca1-4be1-937d-e9166e4003c3",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "b99fc578-879d-4165-b72a-3e66d9902526",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "c8e9740a-2b38-4bed-97cc-a04ecd44c2a4",
+            "type": "Keyboard.Key",
+            "label": "upKey",
+            "keyCode": "UP"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "2a03beeb-6218-4c5c-92f7-d2e121487239",
+            "label": "kegs",
+            "objectIds": [
+                "9659c0e6-7594-40c7-9672-13aacc9d5bfb",
+                "bfa5768b-bb09-4f16-a64d-ffb8983651ee",
+                "31fc301c-b8e6-4e48-9f70-68e284fc0a08",
+                "26ec346f-03fd-4035-8744-54c6b77324e4",
+                "d6213351-3031-4eef-842c-32b63eba34d6",
+                "735113c1-a4b3-4f04-a68d-23f21830b04a",
+                "ee819c00-586d-4960-ad5d-8ac4be79f023",
+                "9e612e47-4a30-491f-a5fa-c90a6c8a3cff"
+            ]
+        },
+        {
+            "id": "73dd5866-975e-42b0-998a-e38edaa38dc0",
+            "label": "walls",
+            "objectIds": [
+                "291ad37d-5972-4450-b174-ade40bb64a6d",
+                "8ff87695-2d10-4944-b1af-369c95cec7b7",
+                "7b4518d5-d3ef-4ceb-9d23-531d10f41d32",
+                "a940a544-b402-4999-9d9b-97e51ffc02fe",
+                "14037a71-dd9b-4f93-bfd8-68578c36f681",
+                "1b6afbda-f158-4675-8ab8-e63010e917e1",
+                "939f6f45-49e9-447b-9b66-4e5297f8c46f",
+                "b9b7403b-2ad7-4b53-9d62-7a5f583098a2",
+                "8d810761-cfad-4168-abd7-51e084a2772e",
+                "9dada54f-705d-4455-a63d-1cef31c6c308"
+            ]
+        }
+    ]
+}
